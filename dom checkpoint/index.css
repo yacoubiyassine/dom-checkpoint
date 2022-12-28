@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(242, 205, 160);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#carousel > img{
+    height: 300px;
+    width: 350px;
+}
+#price-total{
+    font-size: x-large;
+    font-style: italic;
+    border: 1px solid black;
+    margin: 50px 10% 10% 10%;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item >img {
+    height:500px;
+}
+button{
+    color: rgb(47, 228, 59) !important;
+    
+}
+.carte >img{
+    height: 300px;
+    width: 350px;
+    
+}
+.second>img{
+    height: 300px;
+    width: 500px;
+}
+.carte{
+    margin: 20%;
+    border-radius: 20px;
+    border: 10px solid black;
+    
+   
+   
+}
+.second >div{
+    margin: 15px;
+}
+.second{
+    height: 300px;
+    border: 1px solid white;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+.icons{
+    display: flex;
+    margin: 35px;
+    padding-bottom: 20%;
+    padding-right: 20PX;
+    gap: 40px;
+}
+p{
+    display: flex;
+    margin: 15PX;
+}
+h3{
+    display: flex;
+    margin: 15px;
+   
+   
+}
+.price{
+    display: flex;
+    margin: 15px;
+}
+footer{
+    background: rgb(119, 193, 119);
+    color: blue;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+}
+
+
